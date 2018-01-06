@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<label>Fridge Reading History Permission Set</label>
+<fieldPermissions>
+<editable>true</editable>
+<field>Fridge_Reading_History__b.Temperature__c</field>
+<readable>true</readable>
+</fieldPermissions>
+<fieldPermissions>
+<editable>true</editable>
+<field>Fridge_Reading_History__b.Humidity__c</field>
+<readable>true</readable>
+</fieldPermissions>
+<fieldPermissions>
+<editable>true</editable>
+<field>Fridge_Reading_History__b.ts__c</field>
+<readable>true</readable>
+</fieldPermissions>
+<fieldPermissions>
+<editable>true</editable>
+<field>Fridge_Reading_History__b.Door__c</field>
+<readable>true</readable>
+</fieldPermissions>
+<fieldPermissions>
+<editable>true</editable>
+<field>Fridge_Reading_History__b.deviceId__c</field>
+<readable>true</readable>
+</fieldPermissions>
+</PermissionSet>
+
+
